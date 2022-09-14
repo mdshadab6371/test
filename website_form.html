@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <b>
+            <label for="firstName">First name</label>
+            <input type="text" name="firstName" required id="firstName">
+        </b>
+        <b>
+            <label for="lastName">Last name</label>
+            <input type="text" name="lastName" required id="lastName">
+        </b>
+        <b>
+            <label for="middlename">Middle name</label>
+            <input type="text" name="middlename" required id="middleName"> 
+        </b>
+        <p>
+            <label for="emailaddress">Email Address</label>
+            <input type="email" name="email" required id="emailaddress">
+        </p>
+        <p>
+            <label for="ContactNo">Contact No</label>
+            <input type="number" name="mobile" required id="ContactNo">
+        </p>
+        <p>
+            <label for="pass">Generate password</label>
+            <input type="password" name="password" required id="pass">
+        </p>
+        <p>
+            <label for="comfirmPass">Confirm password</label>
+            <input type="password" name="password" required id="comfirmPass">
+        </p>
+        <p>
+            <input type="checkbox" id="agree" checked><label for="agree">I agree to the terms & conditions</label>
+        </p>
+        <p>Choose Your Gender</p>
+        <p>
+            <input type="radio" name="gender" id="M" checked ><label for="M">Male</label>
+            <input type="radio" name="gender" id="F"><label for="F">Famele</label>
+            <input type="radio" name="gender" id="O"><label for="O">Other</label>
+        </p>
+        <p>
+            <input type="datetime-local"> 
+        </p>
+        <p>
+            <input type="range" min="10" max="100" value="20">
+        </p>
+        <p>
+            <input type="number" min="1" value="12" max="20">
+        </p>
+        <p>
+            <input type="file" accept="image/png, image/jpeg, application/pdf">
+        </p>
+        <p>
+            <button type="submit" id="submit">Submit</button>
+            <button type="reset" id="reset">Reset</button>
+        </p>
+    </form>
+</body>
+</html>
